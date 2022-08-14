@@ -30,8 +30,6 @@ jobs:
       runs-on: ubuntu-latest
       
       steps: 
-      - name: Git Checkout
-        uses: actions/checkout@v3
       - name: Adiciona permissão para mvnw
         run: chmod +x mvnw
       - name: Análise SonarCloud
